@@ -43,10 +43,18 @@
 
 ```text
 .
-├── README.md                  # 项目入口说明
-├── PRD写作基本要求清单.md       # PRD 编写与评审检查清单
-├── docs/                      # 产品文档、设计文档和阶段性复盘
-└── ai-workflow/               # AI 协作流程、提示词和可复用工作流沉淀
+├── README.md                    # 项目入口说明
+├── PRD写作基本要求清单.md         # PRD 编写与评审检查清单
+├── project/                     # 产物一：力学实验低代码平台 Demo
+│   ├── prd/                     # PRD 文档
+│   ├── design/                  # UI、交互和产品设计
+│   ├── frontend/                # 前端代码
+│   └── mock/                    # mock 数据和接口模拟
+└── AI协作总结/                  # 产物二：AI 协作方法和工作流沉淀
+    ├── workflow/                # AI 协作流程
+    ├── prompts/                 # 可复用提示词
+    ├── checklists/              # 检查清单
+    └── retrospectives/          # 阶段复盘
 ```
 
 ## 阶段路线图
